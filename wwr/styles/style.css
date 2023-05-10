@@ -1,0 +1,57 @@
+/*webpage max-width*/
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*centering page*/
+nav a {
+    text-align: center;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+/*background color*/
+body {
+    background-color: white;
+}
+
+header {
+    background-color: lime;
+}
+
+nav a:hover {
+    background-color: limegreen;
+}
+
+.book, .join {
+    background-color: blue;
+}
+
+.book:hover, .join:hover {
+    background-color: blue;
+}
+
+#background {
+    background-color: blue;
+}
+
+.msg {
+    background-color: blue;
+}
+
+footer {
+    background-color: blue;
+}
