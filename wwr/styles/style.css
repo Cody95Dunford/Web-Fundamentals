@@ -11,14 +11,12 @@ nav a {
 #hero-msg h1 {
     text-align: center;
 }
-
 #hero-msg h4 {
     text-align: center;
 }
 .button-box {
     text-align: center;
 }
-
 main section {
     text-align: center;
 }
@@ -27,31 +25,59 @@ main section {
 body {
     background-color: white;
 }
-
 header {
+    background-color: forestgreen;
+}
+nav a:hover {
     background-color: lime;
 }
-
-nav a:hover {
-    background-color: limegreen;
-}
-
 .book, .join {
-    background-color: blue;
+    background-color: white;
 }
-
 .book:hover, .join:hover {
-    background-color: blue;
+    background-color: lime;
 }
-
 #background {
-    background-color: blue;
+    background-color: white;
 }
-
 .msg {
-    background-color: blue;
+    background-color: white;
+}
+footer {
+    background-color: forestgreen;
 }
 
+/*foreground color*/
+nav a {
+    color: white
+}
+nav a:hover {
+    color: white
+}
+.home-title {
+    color: white
+}
+h4 {
+    color: white
+}
+.book, .join {
+    color: white
+}
+.book:hover, .join:hover {
+    color: white
+}
+.msg h2 {
+    color: white
+}
+.msg p {
+    color: white
+}
 footer {
-    background-color: blue;
+    color: white
+}
+footer a {
+    color: white
+}
+footer a:hover {
+    color: white
 }
