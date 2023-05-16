@@ -53,7 +53,9 @@ body {
 .book:hover, .join:hover {
     background-color: #134266;
     color: #fce172;  
-    padding: 5px; 
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #background {
     background-color: forestgreen;
