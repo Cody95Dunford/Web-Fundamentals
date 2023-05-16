@@ -40,6 +40,9 @@ body {
 #hero-msg {
     background-color: forestgreen;
 }
+#hero-img {
+    width: 100%;
+}
 .home-title {
     color: #134266;
 }
@@ -49,7 +52,8 @@ body {
 }
 .book:hover, .join:hover {
     background-color: #134266;
-    color: #fce172;   
+    color: #fce172;  
+    padding: 5px; 
 }
 #background {
     background-color: forestgreen;
