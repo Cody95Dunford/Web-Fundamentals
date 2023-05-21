@@ -1,3 +1,6 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Permanent+Marker&display=swap');
+
 /*webpage max-width*/
 #content {
     max-width: 1600px;
@@ -14,6 +17,9 @@
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 /*header*/
 header {
@@ -21,9 +27,9 @@ header {
 }
 nav a {
     text-align: center;    
-    color: #fce172;
+    color: #78c5d7;
     text-decoration: none;
-    padding: 24px;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #134266;
@@ -33,6 +39,11 @@ nav a:hover {
 /*body*/
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .logo {
     width: 80px;
@@ -45,10 +56,18 @@ body {
 }
 .home-title {
     color: #134266;
+    font-family: "Permanent Marker", "Bradly Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .book, .join {
     color: #78c5d7;
     text-decoration: none;
+    font-family: "Old Standard TT", Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #134266;
@@ -56,6 +75,18 @@ body {
     padding-top: 5px; 
     padding-left: 5px;
     padding-right: 5px;
+}
+.card-img {
+    border: 10px solid forestgreen;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
 }
 #background {
     background-color: forestgreen;
@@ -66,24 +97,34 @@ h4 {
 }
 .msg {
     background-color: forestgreen;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
+    font-family: "Permanent Marker", "Bradly Hand", sans-serif;
     color: #134266;
+    font-size: 2em;
 }
 .msg p {
     color: #fce172;
+    font-family: "Old Standard TT", Arial, sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 /*footer*/
 footer {
     background-color: forestgreen;
-    color: #134266
+    color: #134266;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: #fce172;
+    color: #78c5d7;
     text-decoration: none;
 }
 footer a:hover {
@@ -94,4 +135,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
