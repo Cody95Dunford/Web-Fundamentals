@@ -1,0 +1,52 @@
+/*text styles*/
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Slab&display=swap');
+
+
+/*body*/
+body{
+    background-color: #ebe3e3;
+}
+
+/*colors*/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+.colors th {
+    background-color: #999;
+  }
+
+.colors td{
+    width: 20%;
+    height: 3em;
+  }
+.primary {
+    background-color: #7666fb;
+  }
+.secondary {
+    background-color: #f49c9c;
+  }
+.accent1 {
+    background-color: #ebe3e3;
+  }
+.accent2{
+    background-color: #bcb5ee;
+  }
+.accent3{
+    background-color: #f4a6a6;
+}
+
+/*font*/
+h1, h2, h3 {
+    font-family: Bungee;
+    color: #7666fb;
+}
+p {
+    font-family: "Josefin Slab";
+    font-weight: bold;
+    color: #f49c9c;
+}
+
+/*footer*/
