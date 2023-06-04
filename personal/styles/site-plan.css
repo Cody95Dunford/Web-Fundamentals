@@ -1,5 +1,5 @@
 /*text styles*/
-  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=PT+Serif&display=swap');
 
 
 /*body*/
@@ -39,13 +39,12 @@ body{
 }
 
 /*font*/
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Bungee;
     color: #7666fb;
 }
 p {
-    font-family: "Josefin Slab";
-    font-weight: bold;
+    font-family: "PT Serif";
     color: #f49c9c;
 }
 
