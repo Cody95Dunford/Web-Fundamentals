@@ -72,14 +72,15 @@ body {
     margin-top: 100px;
 }
 #hero-msg h4 {
-    color: forestgreen;
+    color: #134266;
 }
 #hero-img {
     width: 100%;
 }
 .home-title {
-    color: forestgreen;
+    color: #134266;
     font-family: "Permanent Marker", "Bradly Hand", sans-serif;
+    align-self: center;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -192,6 +193,20 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+
+/*Page 2*/
+.main_fork_img {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+.desolation_canyon_img {
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+.grand_canyon_img {
+    grid-column: 2/4;
+    grid-row: 9/11;
 }
 
 @media screen and (max-width: 900px) {
