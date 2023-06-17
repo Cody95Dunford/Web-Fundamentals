@@ -8,8 +8,6 @@ Fonts are separated by a & */
   --primary-color: #7666fb;
   --secondary-color: #f49c9c;
   --accent1-color: #ebe3e3;
-  --accent2-color: #bcb5ee;
-  --accent3-color: #f4a6a6;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Bungee;
@@ -19,12 +17,12 @@ Fonts are separated by a & */
   --headline-color-on-white: #7666fb;  /* headlines on a white background */ 
   --headline-color-on-color: #7666fb; /* headlines on a colored background */ 
   --paragraph-color-on-white: #f49c9c; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #ebe3e3; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #bcb5ee  ;
-  --nav-link-color: #ebe3e3;
-  --nav-background-color: #f4a6a6;
-  --nav-hover-link-color: #ebe3e3;
-  --nav-hover-background-color: #bcb5ee;
+  --paragraph-color-on-color: #7666fb; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #f49c9c  ;
+  --nav-link-color: #f49c9c;
+  --nav-background-color: #ebe3e3;
+  --nav-hover-link-color: #f49c9c;
+  --nav-hover-background-color: #7666fb;
 }
 
 
@@ -80,6 +78,9 @@ p {
 .colors td{
   width: 20%;
   height: 3em;
+}
+.img_use {
+  padding: 25px;
 }
 .primary {
   background-color: var(--primary-color);
