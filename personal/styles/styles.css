@@ -1,6 +1,9 @@
-/*whole page*/
-.content {
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=PT+Serif&display=swap');
 
+/*whole page*/
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /*header*/
@@ -29,7 +32,73 @@ nav a:hover {
     grid-row: 1;
 }
 
-/*main*/
+/*Page 1 main*/
+.msg-title {
+    grid-column: 2/5;
+    background-color: #f49c9c;
+    line-height: 1.5em;
+    margin-bottom: 100px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: auto;
+    text-align: center;
+}
+.msg-title h1 {
+    color: #7666fb;
+    font-family: "Bungee";
+    font-size: 3em;
+}
+.msg-title p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.color{
+    background-color: #f49c9c;
+    height: 600px;
+}
+.color h1{
+    text-align: center;
+    color: #7666fb;
+}
+.blank{
+    height: 600px;
+}
+.cloud{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
+.hacker{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
+.virus{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
+.web-app{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
+.mobile-app{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
+.checklist{
+    size: 100px;
+    padding: 35px;
+    margin: 50px;
+    background-color: white;
+}
 
 /*footer*/
 footer {
@@ -51,9 +120,11 @@ footer {
 }
 .msg h3 {
     color: #7666fb;
+    font-family: "Bungee";
 }
 .msg p {
     color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 footer .social img {
     padding-top: 15px;
