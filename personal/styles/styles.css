@@ -4,7 +4,7 @@
 .content1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 200px 300px 300px 300px 300px 600px;
+    grid-template-rows: 300px 300px 200px 300px 300px 600px;
 }
 
 /*header*/
