@@ -4,6 +4,7 @@
 .content1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 200px 300px 300px 300px 300px 600px;
 }
 
 /*header*/
@@ -42,62 +43,174 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
     width: auto;
     text-align: center;
+    grid-column: 2/5;
+    grid-row: 1;
 }
 .msg-title h1 {
     color: #7666fb;
     font-family: "Bungee";
-    font-size: 3em;
+    font-size: 2em;
 }
 .msg-title p {
     color: #7666fb;
     font-family: "PT Serif", "Times New Roman", sans-serif;
 }
-.color{
-    background-color: #f49c9c;
-    height: 600px;
+.book {
+    color: #7666fb;
+    text-decoration: none;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.color h1{
+.book:hover {
+    background-color: #7666fb;
+    color: #f49c9c;  
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sec1{
+    background-color: #f49c9c;
+    grid-column: 1/6;
+    grid-row: 3/6;
+}
+.sec1 h1, h3{
     text-align: center;
     color: #7666fb;
+}
+.sec1 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.sec2{
+    background-color: white;
+    grid-column: 1/6;
+    grid-row: 6/8;
+}
+.sec2 h1{
+    text-align: center;
+    color: #7666fb;
+}
+.sec2 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.sec3{
+    background-color: #f49c9c;
+    grid-column: 1/6;
+    grid-row: 8;
+}
+.sec3 h1{
+    text-align: center;
+    color: #7666fb;
+}
+.sec3 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .blank{
     height: 600px;
 }
 .cloud{
-    size: 100px;
+    size: 200px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
+    grid-column: 3;
+    grid-row: 4;
 }
 .hacker{
-    size: 100px;
+    size: 200px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
+    grid-column: 4;
+    grid-row: 4;
 }
 .virus{
-    size: 100px;
+    size: 200px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
+    grid-column: 5;
+    grid-row: 4;
 }
 .web-app{
     size: 100px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
 }
 .mobile-app{
     size: 100px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
 }
 .checklist{
     size: 100px;
     padding: 35px;
+    border-radius: 50%;
     margin: 50px;
     background-color: white;
+}
+.question1 {
+    background-color: #f49c9c;
+    line-height: 1.5em;
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: auto;
+    grid-column: 2;
+}
+.question1 h3 {
+    color: #7666fb;
+    font-family: "Bungee";
+}
+.question1 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.question2 {
+    background-color: #f49c9c;
+    line-height: 1.5em;
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: auto;
+    grid-column: 3;
+}
+.question2 h3 {
+    color: #7666fb;
+    font-family: "Bungee";
+}
+.question2 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.question3 {
+    background-color: #f49c9c;
+    line-height: 1.5em;
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: auto;
+    grid-column: 4;
+}
+.question3 h3 {
+    color: #7666fb;
+    font-family: "Bungee";
+}
+.question3 p {
+    color: #7666fb;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 
 /*footer*/
