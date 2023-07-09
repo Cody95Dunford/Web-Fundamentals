@@ -26,11 +26,11 @@
     grid-template-columns: 1fr 500px 500px 500px 500px 1fr;
     grid-template-rows: 100px 50px 100px 100px;
 }
-#content {
+.content {
     max-width: 1600px;
     margin: 0 auto;
     border-width: 50px;
-    border-color: #ebe3e3;
+    background-color: #ebe3e3;
 }
 
 /*header*/
@@ -293,6 +293,15 @@ img {
 .question3 p {
     color: #7666fb;
     font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+
+/*Training Page*/
+.content h1{
+    text-align: center;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
+}
+.paragraph {
+    padding: 15px;
 }
 
 /*footer*/
