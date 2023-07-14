@@ -64,6 +64,7 @@ nav a:hover {
     grid-column: 1;
     grid-row: 1;
 }
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #ebe3e3;
@@ -384,8 +385,12 @@ img {
     text-align: center;
 }
 .comp1-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp1-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .comp2-card{
     size: 150px;
@@ -398,8 +403,12 @@ img {
     text-align: center;
 }
 .comp2-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp2-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .comp3-card{
     size: 150px;
@@ -412,8 +421,12 @@ img {
     text-align: center;
 }
 .comp3-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp3-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .comp4-card{
     size: 150px;
@@ -426,8 +439,12 @@ img {
     text-align: center;
 }
 .comp4-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp4-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .comp5-card{
     size: 150px;
@@ -440,8 +457,12 @@ img {
     text-align: center;
 }
 .comp5-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp5-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 .comp6-card{
     size: 150px;
@@ -454,8 +475,12 @@ img {
     text-align: center;
 }
 .comp6-card h3 {
-    color: #7666fb;
+    color: black;
     font-family: "Bungee";
+}
+.comp6-card p {
+    color: black;
+    font-family: "PT Serif", "Times New Roman", sans-serif;
 }
 
 /*contactus*/
