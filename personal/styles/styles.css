@@ -121,7 +121,7 @@ nav a:hover {
     grid-column: 2;
     grid-row: 1;
 }
-.msg-title h1 {
+.msg-title h3 {
     color: #7666fb;
     font-family: "Bungee";
     size: 5em;
